@@ -1,0 +1,11 @@
+<p>
+  home works!
+</p>
+<button color="primary" (click)="goPage1()" mat-raised-button>Go Page1</button>
+
+<hr>
+<mat-list>
+<mat-list-item *ngFor="let user of users">
+  {{user.first_name}} -  {{user.last_name}}
+</mat-list-item>
+</mat-list>

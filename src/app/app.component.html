@@ -1,0 +1,104 @@
+<ul>
+<li><a routerLink="">home</a></li>
+<li><a routerLink="page1">Page1</a></li>
+<li><a routerLink="page2">Page2</a></li>
+<li><a routerLink="page3/1">Page3</a></li>
+</ul>
+
+
+<router-outlet></router-outlet>
+
+<!--
+<form [formGroup]="form" (ngSubmit)="onSubmit()" #f="ngForm">
+
+    <mat-list>
+        <mat-list-item>
+          <mat-form-field [floatLabel]=" 'never'">
+            <input formControlName="email" placeholder="Email" matInput type="email">
+          <mat-error>Email is invalid</mat-error>
+          </mat-form-field>
+        </mat-list-item>
+    
+        <mat-list-item>
+            <mat-form-field [floatLabel]=" 'never'">
+                <input formControlName="password" placeholder="Password" matInput type="password">
+          </mat-form-field>
+        </mat-list-item>
+    
+        <mat-list-item>
+          <button mat-raised-button color="primary">Sign In</button><br>
+          
+        </mat-list-item>
+        <mat-list-item>
+            <button (click)="resetForm($event,f)" mat-raised-button color="warn">Clear</button><br>
+         
+          </mat-list-item>
+      </mat-list>
+</form>
+
+
+
+
+
+<form (ngSubmit)="onSubmit()">
+  <mat-list>
+    <mat-list-item>
+      <mat-form-field>
+        <input [(ngModel)]="username" name="username" placeholder="Username" matInput type="text">
+      </mat-form-field>
+    </mat-list-item>
+
+    <mat-list-item>
+      <mat-form-field>
+        <input [(ngModel)]="password" name="password" placeholder="Password" matInput type="text">
+      </mat-form-field>
+    </mat-list-item>
+
+    <mat-list-item>
+      <button mat-raised-button color="primary">Submit</button><br>
+
+    
+    </mat-list-item>
+  </mat-list>
+  <br>
+  {{show}}
+</form>
+<hr>
+
+
+<br>
+<button mat-raised-button color="primary" (click)="onClick()">{{variable1}} </button>
+<button mat-raised-button color="accent"  (click)="onClick()">{{variable1}} </button>
+<button mat-raised-button color="warn"    (click)="onClick()">{{variable1}} </button>
+<br>
+{{variable1}}
+<hr>
+<mat-radio-group [(ngModel)]="variable2">
+<mat-radio-button [value]="'Item1'">
+  Item1
+</mat-radio-button>
+<mat-radio-button [value]="'Item2'">
+  Item2
+</mat-radio-button>
+<mat-radio-button [value]="'Item3'">
+  Item3
+</mat-radio-button>
+</mat-radio-group>
+<br>
+{{variable2}}
+
+<hr size="1" color="orange">
+<div fxLayout="row">
+  <div fxFlex="20">1</div>
+  <div fxFlex="60">2</div>
+  <div fxFlex="20">3</div>
+</div>
+<br>
+<br>
+<div fxLayout="column">
+  <div fxFlex>1</div>
+  <div fxFlex>2</div>
+  <div fxFlex>3</div>
+</div>
+
+-->
